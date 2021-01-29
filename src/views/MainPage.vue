@@ -21,8 +21,8 @@ export default {
     About,
     Resume,
     Works,
-    Footer,
-  },
+    Footer
+  }
 };
 </script>
 
@@ -122,6 +122,8 @@ body {
   font-size: 62.5%;
   line-height: 1;
   font-family: Arial, Tahoma, Verdana, sans-serif;
+  color: #ffffff;
+  font-size: 18px;
 }
 
 article,

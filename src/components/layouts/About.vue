@@ -1,6 +1,8 @@
 <template>
-  <section class="about">
-    <h2>About</h2>
+  <section class="about" id="about">
+    <div class="about-wrapper">
+      <h3>About</h3>
+    </div>
   </section>
 </template>
 
@@ -11,5 +13,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.about {
+  height: 300px;
+  background-color: #2b2b2b;
+  &-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
 </style>

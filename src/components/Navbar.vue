@@ -5,7 +5,7 @@
         <a href="#">Home</a>
       </li>
       <li class="navbar_item">
-        <a href="#">About</a>
+        <a href="#" v-scroll-to="'#about'">About</a>
       </li>
       <li class="navbar_item">
         <a href="#">Resume</a>

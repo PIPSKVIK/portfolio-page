@@ -14,8 +14,8 @@ import Navbar from "@/components/Navbar";
 export default {
   name: "Home",
   components: {
-    Navbar,
-  },
+    Navbar
+  }
 };
 </script>
 
@@ -36,6 +36,8 @@ export default {
   &_title {
     color: #ffffff;
     font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
   .container {
     width: 85%;
